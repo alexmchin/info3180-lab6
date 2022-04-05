@@ -50,7 +50,8 @@ self.searchTerm + '&language=en', {
 
 <style>
   .news__item{
-  display: gridbox;
+  display: grid;
+  column-gap: 50px;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   grid-gap: 20px;
   margin: 15px;
